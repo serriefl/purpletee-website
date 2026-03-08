@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Purple Tee LLC - Building simple, golfer-first iOS apps for effortless tee-time discovery. Local Links coming soon.">
+    <meta name="description" content="Purple Tee LLC - Find and compare public tee times across Florida municipal golf courses.">
 
-    <title>Purple Tee LLC - Golf Tee Time Discovery Apps</title>
+    <title>Purple Tee LLC - Golf Tee Time Discovery</title>
 
     <link rel="canonical" href="https://purpletee.ai/">
 
@@ -38,6 +38,7 @@
     </div>
 </header>
 
+
 <main>
 
 <section id="home" class="hero">
@@ -48,11 +49,11 @@
         <div class="hero-content">
 
             <h1 class="hero-title">
-                Building simple, golfer-first <span class="text-green">iOS apps</span>
+                Find public tee times faster
             </h1>
 
             <p class="hero-subtitle">
-                For effortless tee-time discovery. Find and compare public municipal tee times in moments.
+                Compare availability, price, and distance across public courses in seconds.
             </p>
 
         </div>
@@ -75,11 +76,14 @@
 
             <p class="coming-soon">Coming Soon</p>
 
+            <p class="coming-soon">
+                Launching first with municipal courses across Florida.
+            </p>
+
             <p class="app-description">
-                Find and compare public municipal tee times in moments.
+                Find and compare public tee times in moments.
                 One visual dashboard shows availability, pricing,
-                proximity, and value—no logins, no tracking.
-                Perfect for groups planning weekend rounds.
+                proximity, and value—no logins required.
             </p>
 
         </div>
@@ -91,7 +95,7 @@
                 <div class="feature-icon">📍</div>
                 <h3 class="feature-title">Location-Based</h3>
                 <p class="feature-description">
-                    Find tee times at public municipal courses near you with instant proximity sorting.
+                    Find tee times at public courses near you with instant proximity sorting.
                 </p>
             </div>
 
@@ -99,7 +103,7 @@
                 <div class="feature-icon">👁️</div>
                 <h3 class="feature-title">Visual Dashboard</h3>
                 <p class="feature-description">
-                    One comprehensive view shows availability, pricing, proximity, and value at a glance.
+                    See availability, price, and distance across multiple courses in one dashboard.
                 </p>
             </div>
 
@@ -107,7 +111,7 @@
                 <div class="feature-icon">⏰</div>
                 <h3 class="feature-title">Availability</h3>
                 <p class="feature-description">
-                    See real-time tee time availability across multiple courses in moments.
+                    See current tee time availability across multiple courses.
                 </p>
             </div>
 
@@ -120,10 +124,11 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">👥</div>
-                <h3 class="feature-title">Group Planning</h3>
+                <div class="feature-icon">🔒</div>
+                <h3 class="feature-title">No Logins or Tracking</h3>
                 <p class="feature-description">
-                    Perfect for groups planning weekend rounds—no logins, no tracking required.
+                    Use the app instantly without creating an account.
+                    No profiles, no tracking—just tee times.
                 </p>
             </div>
 
@@ -152,14 +157,12 @@
 
             <p class="about-text">
                 We're building simple, golfer-first iOS apps for effortless tee-time discovery.
-                Our mission is to make finding and booking tee times at public municipal courses
-                as easy as possible.
+                Our mission is to make finding tee times at public courses as easy as possible.
             </p>
 
             <p class="about-text">
-                Local Links puts everything you need in one visual dashboard—availability, pricing,
-                proximity, and value. No complicated logins, no tracking, just straightforward tools
-                to help you get on the course faster.
+                Local Links puts everything you need in one visual dashboard—availability,
+                pricing, proximity, and value—starting with municipal courses across Florida.
             </p>
 
             <ul class="highlights-list">
@@ -181,7 +184,7 @@
 
                 <li class="highlight-item">
                     <span class="checkmark">✓</span>
-                    <span>Built for public municipal courses</span>
+                    <span>Launching with Florida municipal courses</span>
                 </li>
 
             </ul>
@@ -202,18 +205,15 @@
         <div class="footer-grid">
 
             <div class="footer-section">
-
                 <div class="footer-logo">Purple Tee LLC</div>
 
                 <p class="footer-description">
                     Building simple, golfer-first iOS apps for effortless tee-time discovery.
                 </p>
-
             </div>
 
 
             <div class="footer-section">
-
                 <h4 class="footer-heading">Quick Links</h4>
 
                 <ul class="footer-links">
@@ -221,42 +221,34 @@
                     <li><a href="#app">App</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
-
             </div>
 
 
             <div class="footer-section">
-
                 <h4 class="footer-heading">Legal</h4>
 
                 <ul class="footer-links">
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="terms-of-service.html">Terms of Use</a></li>
                 </ul>
-
             </div>
 
 
             <div class="footer-section">
-
                 <h4 class="footer-heading">Contact</h4>
 
                 <p class="footer-text">Questions or feedback?</p>
 
                 <a href="mailto:support@purpletee.ai"
                    class="footer-email">support@purpletee.ai</a>
-
             </div>
 
         </div>
 
 
         <div class="footer-bottom">
-
             <p>&copy; 2026 Purple Tee LLC. All rights reserved.</p>
-
             <p>Hosted on GitHub Pages</p>
-
         </div>
 
     </div>
@@ -269,20 +261,19 @@
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
 
-menuToggle.addEventListener('click', function () {
+menuToggle.addEventListener('click', function() {
     nav.classList.toggle('active');
     this.classList.toggle('active');
 });
 
 document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', function () {
+    link.addEventListener('click', function() {
         nav.classList.remove('active');
         menuToggle.classList.remove('active');
     });
 });
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-
     anchor.addEventListener('click', function (e) {
 
         e.preventDefault();
@@ -297,7 +288,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
 
     });
-
 });
 
 </script>

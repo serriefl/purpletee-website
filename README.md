@@ -84,6 +84,10 @@ Edit `styles.css` - main green color is `#166534`
 - **Accessibility features**: ARIA labels, focus styles, reduced motion support
 - **Browser support**: All modern browsers (Chrome, Firefox, Safari, Edge)
 
+## Google Search Console verification
+
+`googlec0ca5cb5b1904db4.html` at the repository root is Google Search Console's URL-prefix ownership verification file for https://purpletee.ai/. It was added in November 2026 so Google Play Console can verify the organization website. The file must stay in place with its name and its one-line contents unchanged, or Google will lose verification. No DNS record is used for this.
+
 ## 📧 Contact
 
 Questions or feedback? Email: support@purpletee.ai

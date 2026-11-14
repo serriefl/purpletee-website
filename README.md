@@ -33,13 +33,19 @@ A clean, responsive landing page for Purple Tee LLC and the Local Links golf tee
 
 ```
 /
-├── index.html              # Main landing page
-├── styles.css              # All styles (shared across pages)
-├── privacy-policy.html     # Privacy policy page
-├── terms-of-service.html   # Terms of service page
+├── index.html                      # Purple Tee / Local Links landing page
+├── styles.css                      # Styles for the Local Links pages
+├── privacy-policy.html             # Local Links privacy policy
+├── terms-of-service.html           # Local Links terms of use
+├── clubmill.html                   # ClubMill landing page
+├── clubmill-privacy.html           # ClubMill privacy policy
+├── clubmill-terms.html             # ClubMill terms of use
+├── clubmill-delete-account.html    # ClubMill account deletion
+├── clubmill.css                    # Styles for the ClubMill pages
 ├── assets/
-│   └── logo.png           # Local Links logo
-└── README.md              # This file
+│   ├── logo.png                    # Local Links logo
+│   └── clubmill/mark.svg           # ClubMill mark
+└── README.md
 ```
 
 ## ✨ Features
@@ -83,6 +89,19 @@ Edit `styles.css` - main green color is `#166534`
 - **Mobile-first approach** with breakpoints at 768px and 1024px
 - **Accessibility features**: ARIA labels, focus styles, reduced motion support
 - **Browser support**: All modern browsers (Chrome, Firefox, Safari, Edge)
+
+## ClubMill
+
+ClubMill is a separate Purple Tee LLC game, a sports arcade. Its pages are not the Local Links privacy policy or terms. Local Links stays on `privacy-policy.html` and `terms-of-service.html`. Do not edit those files to describe ClubMill.
+
+These ClubMill URLs are permanent. App Store, Google Play, and Steam listings link here (or will). Do not rename the files.
+
+- `clubmill.html` — landing page and support URL: `https://purpletee.ai/clubmill.html`
+- `clubmill-privacy.html` — privacy policy: `https://purpletee.ai/clubmill-privacy.html`
+- `clubmill-terms.html` — terms of use: `https://purpletee.ai/clubmill-terms.html`
+- `clubmill-delete-account.html` — public account-deletion steps, including the page Google Play requires: `https://purpletee.ai/clubmill-delete-account.html`
+
+Styles for these pages live in `clubmill.css`. Screenshot frames and store-badge slots on `clubmill.html` are placeholders. Replace them with self-hosted files when real art exists. Do not hotlink store badges.
 
 ## Google Search Console verification
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy policy for Clubhouse Millionaire, a game from Purple Tee LLC. Covers Sign in with Apple, Sign in with Google, Steam, and Azure PlayFab.">
+    <meta name="description" content="Privacy policy for Clubhouse Millionaire, a game from Purple Tee LLC. Covers Sign in with Apple, planned Sign in with Google, Steam, and Azure PlayFab.">
     <title>Privacy Policy — Clubhouse Millionaire</title>
     <link rel="canonical" href="https://purpletee.ai/clubmill-privacy.html">
     <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -38,7 +38,7 @@
              Known and written into the public text:
              PlayFab account, linked sign-in, Apple refresh token (revoked on in-app deletion), display name sent to Azure AI Content Safety, highest balance on the weekly and monthly highest-balance leaderboards (public: balance, display name, time).
              PlayFab login data: IP, device, approximate location, about 30 days of login history, from docs/DATA-COLLECTION.md. Not re-checked in the PlayFab console for this edit.
-             Coins and other progress stay on the device until the app is removed. Leaderboard rows are not explicitly deleted; a row was seen to return.
+             Coins and other progress stay on the device until the app is removed. Leaderboard rows are not explicitly deleted. A public row can remain.
              Google sign-in is not shipped. The section describes how it will work.
              Steam sign-in is not live. That section stays general.
              Account deletion is in the app only. Email does not delete an account. -->
@@ -55,7 +55,7 @@
             <h2>In short</h2>
             <ul class="summary">
                 <li>You can play without an account.</li>
-                <li>If you sign in, Azure PlayFab keeps the account, the linked sign-in, and your display name. A highest coin balance can also be posted on a public leaderboard.</li>
+                <li>If you sign in, Azure PlayFab keeps the account, the linked sign-in, and your display name. While you are signed in, your highest coin balance is posted automatically on a public leaderboard.</li>
                 <li>Other coins and game progress stay on your device until you remove the app.</li>
                 <li>We do not sell your information, and we do not delete an account because of an email.</li>
             </ul>
@@ -68,7 +68,7 @@
                     <li>A PlayFab account and the sign-in linked to it, as described for Apple, Google, and Steam below</li>
                     <li>On iPhone, an Apple refresh token stored in PlayFab so we can ask Apple to revoke Sign in with Apple if you delete the account</li>
                     <li>A leaderboard display name. Unless it is on a short allowlist we keep, we send the name you typed to Microsoft Azure AI Content Safety to screen it before other players can see it</li>
-                    <li>Your highest coin balance, your display name, and a time, if that balance is submitted to a public highest-balance leaderboard</li>
+                    <li>Your highest coin balance, your display name, and a time. While you are signed in, the Game posts that highest balance to a public leaderboard automatically</li>
                     <li>Other virtual coins and game progress, stored on your device</li>
                     <li>Messages you send to support@purpletee.ai</li>
                 </ul>
@@ -105,7 +105,7 @@
                     <li>Login information PlayFab records for the account: IP address, device information, an approximate location derived from the IP address, and a login history</li>
                 </ul>
                 <p>You choose a display name in the Game. Unless that name is on a short allowlist we keep, we send the text to Microsoft Azure AI Content Safety so we can refuse a name that breaks the rules. Microsoft states that user input sent to Azure AI Content Safety is not stored in the model during detection, is not stored or made available for human review by Microsoft employees, and is not used to train its models. A blocklist of terms we configure can be stored by that service. That list is ours. It is not a copy of names players submit. Microsoft describes this on its page, <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/content-safety/data-privacy">Data, privacy, and security for Azure AI Content Safety</a>.</p>
-                <p>If you are signed in, the Game can submit your highest coin balance to the weekly and monthly highest-balance leaderboards. Each of those entries includes the balance, your display name, and a time. Other players can see them. A biggest-win leaderboard can also show a display name and a score.</p>
+                <p>While you are signed in, the Game automatically submits your highest coin balance to the weekly and monthly highest-balance leaderboards. Each of those entries includes the balance, your display name, and a time. Other players can see them. A biggest-win leaderboard can also show a display name and a score.</p>
                 <p>PlayFab processes this information for us so sign-in and leaderboards can work. We do not allow that information to be sold.</p>
             </section>
 
@@ -121,7 +121,7 @@
                 <p>The only way to delete an account is in the Game, after you sign in with the same Apple account, or with the same Google account once Sign in with Google is offered. That works after you reinstall the app and on a new device. The steps are on the <a href="clubmill-delete-account.html">delete your account</a> page.</p>
                 <p>We do not delete an account because of an email. We cannot verify that an email is from the account holder, so we will not delete an account on request. support@purpletee.ai can help you reach Delete Account in the Game. It cannot do the deletion for you.</p>
                 <p>When in-app deletion succeeds, we remove the PlayFab account and the sign-in linked to it. On iPhone we also send Apple a request to revoke the stored refresh token. Apple's reply does not always confirm that revoke, so we can say the request was sent.</p>
-                <p>That deletion does not include a separate step that removes leaderboard rows. A row has been seen to come back after a deletion. A display name, a score, or a highest balance on a public board can remain. We cannot promise those rows disappear.</p>
+                <p>That deletion does not include a separate step that removes leaderboard rows. A display name, a score, or a highest balance on a public board can remain. We cannot promise those rows disappear.</p>
                 <p>Coins and other progress stored on the device stay there until you remove the app.</p>
             </section>
 
@@ -156,7 +156,7 @@
                 <h2>11. Data Retention</h2>
                 <p>We keep the PlayFab account, the linked sign-in, the Apple refresh token, and the display name until in-app deletion of that account succeeds, or until we remove a name or a score because it breaks the rules.</p>
                 <p>PlayFab keeps the login history (IP address, device information, and approximate location) for about 30 days, with the player record. We do not keep a separate archive of those logs. When deletion of the PlayFab account succeeds, that record is what the deletion removes, including login history still on it. We have not inspected every PlayFab log after a deletion, so we do not claim that every technical log is gone.</p>
-                <p>Leaderboard rows are different. The deletion does not call a separate leaderboard delete. A row has been seen to come back. A public row can remain after the account is gone, and we do not know a fixed time after which it will disappear.</p>
+                <p>Leaderboard rows are different. The deletion does not call a separate leaderboard delete. A public row can remain after the account is gone, and we do not know a fixed time after which it will disappear.</p>
                 <p>Coins and other progress on the device stay until you remove the app. A highest balance already posted to a leaderboard is the public row described above, not that on-device save.</p>
                 <p>If you email us, we keep that correspondence as an ordinary business record for as long as we need it to handle your message. Keeping the email does not delete an account.</p>
             </section>

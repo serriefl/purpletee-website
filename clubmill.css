@@ -493,6 +493,16 @@ a {
     font-size: 0.82rem;
 }
 
+.mock-caption {
+    display: block;
+    margin-top: 0.15rem;
+    color: var(--brass);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
 .slot-grid figcaption {
     margin-top: 0.75rem;
     text-align: center;

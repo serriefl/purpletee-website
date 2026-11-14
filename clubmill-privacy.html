@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy policy for Clubhouse Millionaire, a game from Purple Tee LLC. Covers Sign in with Apple, planned Sign in with Google, Steam, and Azure PlayFab.">
+    <title>Privacy Policy — Clubhouse Millionaire</title>
+    <link rel="canonical" href="https://purpletee.ai/clubmill-privacy.html">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#12161c">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+    <link rel="icon" href="assets/clubmill/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="clubmill.css">
+</head>
+<body class="cm">
+    <a class="skip" href="#content">Skip to content</a>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="wordmark" href="clubmill.html">
+                <img src="assets/clubmill/mark.svg" alt="" width="32" height="32">
+                Clubhouse Millionaire
+            </a>
+            <nav class="site-nav" aria-label="Clubhouse Millionaire">
+                <a href="clubmill.html">Game</a>
+                <a href="clubmill-privacy.html" aria-current="page">Privacy</a>
+                <a href="clubmill-terms.html">Terms</a>
+                <span class="nav-break" aria-hidden="true"></span>
+                <a href="clubmill-delete-account.html">Delete account</a>
+                <a href="index.html">Purple Tee</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content" class="page-intro">
+        <!-- TODO(Allen): Before go-live, confirm this data list against the store questionnaires and strip these TODO comments.
+             Analytics is not named on this page, and the page does not say analytics is off. Decide that separately, then update this policy.
+             Known and written into the public text:
+             PlayFab account, linked sign-in, Apple refresh token (revoked on in-app deletion), display name sent to Azure AI Content Safety, highest balance on the weekly and monthly highest-balance leaderboards (public: balance, display name, time).
+             PlayFab login data: IP, device, approximate location, about 30 days of login history, from docs/DATA-COLLECTION.md. Not re-checked in the PlayFab console for this edit.
+             Coins and other progress stay on the device until the app is removed. Leaderboard rows are not explicitly deleted. A public row can remain.
+             Google sign-in is not shipped. The section describes how it will work.
+             Steam sign-in is not live. That section stays general.
+             Account deletion is in the app only. Email does not delete an account. -->
+        <article class="doc">
+            <a class="back-link" href="clubmill.html">&larr; Back to Clubhouse Millionaire</a>
+            <p class="kicker">Clubhouse Millionaire</p>
+            <h1>Privacy Policy</h1>
+            <p class="updated">Last updated: November 14, 2026</p>
+
+            <p>Purple Tee LLC ("we," "us," or "our") operates Clubhouse Millionaire (ClubMill), a sports arcade game for phones and, when we offer it, personal computers ("the Game"). This Privacy Policy explains how information is handled when you play the Game on iPhone, Android, or a PC version.</p>
+
+            <p>This policy covers Clubhouse Millionaire only. It does not cover Local Links or any other Purple Tee LLC app.</p>
+
+            <h2>In short</h2>
+            <ul class="summary">
+                <li>You can play without an account.</li>
+                <li>If you sign in, Azure PlayFab keeps the account, the linked sign-in, and your display name. While you are signed in, your highest coin balance is posted automatically on a public leaderboard.</li>
+                <li>Other coins and game progress stay on your device until you remove the app.</li>
+                <li>We do not sell your information, and we do not delete an account because of an email.</li>
+            </ul>
+
+            <section>
+                <h2>1. Information We Collect</h2>
+                <p>Clubhouse Millionaire does not require an account, and we do not ask you to create a Purple Tee username and password.</p>
+                <p>If you choose to sign in, or if you contact us, the Game may handle:</p>
+                <ul>
+                    <li>A PlayFab account and the sign-in linked to it, as described for Apple, Google, and Steam below</li>
+                    <li>On iPhone, an Apple refresh token stored in PlayFab so we can ask Apple to revoke Sign in with Apple if you delete the account</li>
+                    <li>A leaderboard display name. Unless it is on a short allowlist we keep, we send the name you typed to Microsoft Azure AI Content Safety to screen it before other players can see it</li>
+                    <li>Your highest coin balance, your display name, and a time. While you are signed in, the Game posts that highest balance to a public leaderboard automatically</li>
+                    <li>Other virtual coins and game progress, stored on your device</li>
+                    <li>Messages you send to support@purpletee.ai</li>
+                </ul>
+                <p>Sign-in and leaderboard requests are sent to Microsoft Azure PlayFab over encrypted HTTPS. When you sign in, PlayFab also records standard login information: an IP address, device information, an approximate location derived from the IP address, and a login history. The sign-in sections below say what each platform shares. The Game does not ask you for a precise GPS location.</p>
+            </section>
+
+            <section>
+                <h2>2. Sign in with Apple</h2>
+                <p>On iPhone, you may sign in with Sign in with Apple. This is optional. You can play without it.</p>
+                <p>Apple provides an identifier issued for Clubhouse Millionaire so the Game can recognize the same player when you return. We use that identifier to link your player account and your leaderboard display name.</p>
+                <p>We use Sign in with Apple to run your account. We do not use it to build an advertising profile, and we do not sell the identifier Apple shares with us.</p>
+            </section>
+
+            <section>
+                <h2>3. Sign in with Google</h2>
+                <p>Sign in with Google is not in the Game today. It is coming soon on Android. You can play on Android without an account.</p>
+                <p>When Sign in with Google is offered, we will request only basic identity information through OpenID, which is the information needed to sign you in. We will tell Azure PlayFab not to store your Google email address. We will use that sign-in to link your account. We will not use it to email you, to advertise to you, or to look through the rest of your Google account.</p>
+                <p>Until that sign-in is offered, the Game does not receive a Google identity.</p>
+            </section>
+
+            <section>
+                <h2>4. Steam</h2>
+                <p>We may offer a Steam sign-in later, for a PC version of Clubhouse Millionaire. Steam sign-in is not available today, and Clubhouse Millionaire does not collect a Steam identity now.</p>
+                <p>If we offer Steam sign-in, we will use it to recognize your player account, in the same way we use the other sign-in options, and we will update this policy with the specific information that sign-in shares. Until that update, this page does not describe a Steam sign-in that is not in the Game.</p>
+            </section>
+
+            <section>
+                <h2>5. Azure PlayFab and Leaderboards</h2>
+                <p>Clubhouse Millionaire uses Microsoft Azure PlayFab as its game backend. When you sign in, PlayFab stores:</p>
+                <ul>
+                    <li>The PlayFab account and the sign-in linked to it</li>
+                    <li>On iPhone, the Apple refresh token described above, in storage the app on your device cannot read</li>
+                    <li>Your leaderboard display name</li>
+                    <li>Login information PlayFab records for the account: IP address, device information, an approximate location derived from the IP address, and a login history</li>
+                </ul>
+                <p>You choose a display name in the Game. Unless that name is on a short allowlist we keep, we send the text to Microsoft Azure AI Content Safety so we can refuse a name that breaks the rules. Microsoft states that user input sent to Azure AI Content Safety is not stored in the model during detection, is not stored or made available for human review by Microsoft employees, and is not used to train its models. A blocklist of terms we configure can be stored by that service. That list is ours. It is not a copy of names players submit. Microsoft describes this on its page, <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/content-safety/data-privacy">Data, privacy, and security for Azure AI Content Safety</a>.</p>
+                <p>While you are signed in, the Game automatically submits your highest coin balance to the weekly and monthly highest-balance leaderboards. Each of those entries includes the balance, your display name, and a time. Other players can see them. A biggest-win leaderboard can also show a display name and a score.</p>
+                <p>PlayFab processes this information for us so sign-in and leaderboards can work. We do not allow that information to be sold.</p>
+            </section>
+
+            <section>
+                <h2>6. Coins and Progress on Your Device</h2>
+                <p>Your coin balance and the rest of your game progress are stored on your device. They are not a cloud copy of the whole game. They stay on the device until you remove the app.</p>
+                <p>The exception is a highest balance submitted to a public leaderboard, described above. That entry is the balance, the display name, and a time. It is not the rest of your progress.</p>
+                <p>Coins have no cash value. The Game does not pay money, and you cannot redeem or exchange coins for money or goods.</p>
+            </section>
+
+            <section>
+                <h2>7. Account Deletion</h2>
+                <p>The only way to delete an account is in the Game, after you sign in with the same Apple account, or with the same Google account once Sign in with Google is offered. That works after you reinstall the app and on a new device. The steps are on the <a href="clubmill-delete-account.html">delete your account</a> page.</p>
+                <p>We do not delete an account because of an email. We cannot verify that an email is from the account holder, so we will not delete an account on request. support@purpletee.ai can help you reach Delete Account in the Game. It cannot do the deletion for you.</p>
+                <p>When in-app deletion succeeds, we remove the PlayFab account and the sign-in linked to it. On iPhone we also send Apple a request to revoke the stored refresh token. Apple's reply does not always confirm that revoke, so we can say the request was sent.</p>
+                <p>That deletion does not include a separate step that removes leaderboard rows. A display name, a score, or a highest balance on a public board can remain. We cannot promise those rows disappear.</p>
+                <p>Coins and other progress stored on the device stay there until you remove the app.</p>
+            </section>
+
+            <section>
+                <h2>8. How We Use Information</h2>
+                <ul>
+                    <li>Run optional sign-in and keep your player account</li>
+                    <li>Show and moderate leaderboards</li>
+                    <li>Answer support mail and help you find in-app deletion</li>
+                    <li>Protect the Game and enforce the rules against cheating and abusive names</li>
+                </ul>
+                <p>We do not use Clubhouse Millionaire information for advertising.</p>
+            </section>
+
+            <section>
+                <h2>9. Data Sharing</h2>
+                <p>We do not sell, rent, or trade personal information.</p>
+                <p>We share the account information described above with Microsoft Azure PlayFab, which hosts player accounts and leaderboards for us.</p>
+                <p>Apple, Google, or Valve may process information when you use their store or their sign-in. Their own privacy policies describe that processing. We receive the sign-in identity those services share with Clubhouse Millionaire, as described in the sign-in sections above.</p>
+                <p>We may also share information if the law requires it, or to investigate cheating, abuse, or a security problem.</p>
+                <p>We do not share Clubhouse Millionaire information with advertising networks, and we do not track you across other companies' apps and websites for advertising.</p>
+            </section>
+
+            <section>
+                <h2>10. Advertising</h2>
+                <!-- TODO(Allen): Do not name an analytics product in this section until you decide whether the game uses one. Do not write that analytics is off. -->
+                <p>The Game does not show third-party advertisements. We do not sell personal information. We do not use information from the Game to track you across apps and websites owned by other companies for advertising.</p>
+                <p>If the Game uses a tool that collects usage or diagnostics data, we will update this policy, name the tool, and describe what it collects.</p>
+            </section>
+
+            <section>
+                <h2>11. Data Retention</h2>
+                <p>We keep the PlayFab account, the linked sign-in, the Apple refresh token, and the display name until in-app deletion of that account succeeds, or until we remove a name or a score because it breaks the rules.</p>
+                <p>PlayFab keeps the login history (IP address, device information, and approximate location) for about 30 days, with the player record. We do not keep a separate archive of those logs. When deletion of the PlayFab account succeeds, that record is what the deletion removes, including login history still on it. We have not inspected every PlayFab log after a deletion, so we do not claim that every technical log is gone.</p>
+                <p>Leaderboard rows are different. The deletion does not call a separate leaderboard delete. A public row can remain after the account is gone, and we do not know a fixed time after which it will disappear.</p>
+                <p>Coins and other progress on the device stay until you remove the app. A highest balance already posted to a leaderboard is the public row described above, not that on-device save.</p>
+                <p>If you email us, we keep that correspondence as an ordinary business record for as long as we need it to handle your message. Keeping the email does not delete an account.</p>
+            </section>
+
+            <section>
+                <h2>12. Your Choices</h2>
+                <ul>
+                    <li>Play without signing in.</li>
+                    <li>Delete an account in the Game after you sign in with the same Apple account, or the same Google account once that sign-in exists. Reinstalling the app, or using a new device, still works.</li>
+                    <li>Email support@purpletee.ai for help finding those steps. That email does not delete the account.</li>
+                    <li>Remove the app from the device to remove coins and progress stored only there.</li>
+                </ul>
+                <p>You can also email us with a question about this policy or about the information described above.</p>
+            </section>
+
+            <section>
+                <h2>13. Security</h2>
+                <p>We use reasonable safeguards designed to protect the information we handle. Connections between the Game and Azure PlayFab use encrypted HTTPS.</p>
+                <p>No method of storage or transmission is completely secure.</p>
+            </section>
+
+            <section>
+                <h2>14. Children's Privacy</h2>
+                <p>The Game is not directed to children under 13. We do not knowingly collect personal information from children under 13. It is intended for the age rating shown on the store listing where you downloaded it.</p>
+                <p>If you believe a child under 13 has signed in, email support@purpletee.ai. We will help delete that account in the Game. We will not delete it from the email, because we cannot verify ownership by email. The person who can open the Game needs to sign in with the same Apple account, or the same Google account once that sign-in is offered, and use Delete Account.</p>
+            </section>
+
+            <section>
+                <h2>15. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. The current version will be on this page, with a new "Last updated" date.</p>
+            </section>
+
+            <section>
+                <h2>16. GDPR and UK GDPR</h2>
+                <p>If the GDPR or the UK GDPR applies to you, Purple Tee LLC is the controller of the personal information described in this policy.</p>
+                <p>We use personal information on these bases:</p>
+                <ul>
+                    <li>Contract: to provide the Game you choose to play, including an optional account, leaderboards, and in-app deletion</li>
+                    <li>Legitimate interests: to keep the Game secure, moderate display names, and limit cheating, where those interests are not overridden by your rights</li>
+                    <li>Legal obligation: where the law requires us to keep or disclose information</li>
+                    <li>Consent: where a sign-in or a device permission asks for it. You can refuse sign-in and still play. You can withdraw a permission in your device settings</li>
+                </ul>
+                <p>You can ask us to access the personal information we hold about you, correct it, erase it, restrict how we use it, or provide a portable copy of information you gave us. You can object to use that is based on legitimate interests. Erasure of the account is done in the Game, as section 7 describes. We will not erase the account from an email. For access, correction, and the other rights, email support@purpletee.ai. If we cannot verify the request inside the Game, we may need to verify your identity before we act.</p>
+                <p>You can complain to a data protection supervisory authority. In the UK, that is the Information Commissioner's Office. In the EEA, it is the authority in your country.</p>
+                <p>We are in the United States. Microsoft Azure PlayFab, Microsoft Azure AI Content Safety, Apple, and Google process information in the United States when you use those services. If you are outside the United States, that is a transfer of personal information to the United States. Those companies publish the international-transfer terms for their services, and we use the services to run the Game.</p>
+                <p>How long we keep information is in section 11.</p>
+            </section>
+
+            <section>
+                <h2>17. CCPA and CPRA</h2>
+                <p>If the California Consumer Privacy Act, as amended by the CPRA, applies to you, this section describes that.</p>
+                <p>Categories we collect:</p>
+                <ul>
+                    <li>Identifiers, such as a sign-in identifier, a PlayFab account, an IP address, and, on iPhone, an Apple refresh token</li>
+                    <li>Approximate geolocation derived from an IP address, not precise GPS</li>
+                    <li>Device and login information, such as device details and login history</li>
+                    <li>Information you create in the Game, such as a display name, a leaderboard score, and a highest balance posted to a leaderboard</li>
+                </ul>
+                <p>Sources: you, your device, Apple or Google when you use their sign-in, and PlayFab as it records logins.</p>
+                <p>Purposes: to run the Game, show leaderboards, screen display names, keep the Game secure, and answer support mail.</p>
+                <p>We do not sell personal information. We do not share it for cross-context behavioral advertising.</p>
+                <p>You can ask to know, delete, and correct personal information, and you can opt out of sale or sharing. There is no sale or sharing to opt out of. Deletion of the account is still done in the Game, not by email. For a request to know, correct, or opt out, email support@purpletee.ai. If we cannot verify the request inside the Game, we may need to verify your identity before we act. You may use an authorized agent where the law allows it.</p>
+                <p>We will not deny the Game, charge you, or give you a different service because you exercise these rights.</p>
+            </section>
+
+            <section>
+                <h2>18. Contact</h2>
+                <p>Purple Tee LLC, 7901 4th St N, #30378, St. Petersburg, FL 33702, USA. Contact: <a href="mailto:support@purpletee.ai">support@purpletee.ai</a>.</p>
+                <p>Related pages: <a href="clubmill-terms.html">Terms of use</a> and <a href="clubmill-delete-account.html">delete your account</a>.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div>
+                <p class="footer-brand">Clubhouse Millionaire</p>
+                <p>A sports arcade from Purple Tee LLC. Virtual coins have no cash value.</p>
+            </div>
+            <nav aria-label="Game">
+                <p class="footer-label">Game</p>
+                <ul>
+                    <li><a href="clubmill.html">Overview</a></li>
+                    <li><a href="clubmill.html#cabinets">Cabinets</a></li>
+                    <li><a href="clubmill.html#platforms">Platforms</a></li>
+                    <li><a href="clubmill.html#support">Support</a></li>
+                </ul>
+            </nav>
+            <nav aria-label="Legal">
+                <p class="footer-label">Legal</p>
+                <ul>
+                    <li><a href="clubmill-privacy.html">Privacy policy</a></li>
+                    <li><a href="clubmill-terms.html">Terms of use</a></li>
+                    <li><a href="clubmill-delete-account.html">Delete account</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p class="footer-label">Contact</p>
+                <p>Questions or account help</p>
+                <p><a class="footer-email" href="mailto:support@purpletee.ai">support@purpletee.ai</a></p>
+            </div>
+        </div>
+        <div class="wrap footer-bottom">
+            <p>&copy; 2026 Purple Tee LLC. All rights reserved.</p>
+            <p><a href="index.html">Purple Tee LLC</a></p>
+        </div>
+    </footer>
+</body>
+</html>

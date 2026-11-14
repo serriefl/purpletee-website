@@ -92,7 +92,7 @@ Edit `styles.css` - main green color is `#166534`
 
 ## ClubMill
 
-ClubMill is a separate Purple Tee LLC game, a sports arcade. Its pages are not the Local Links privacy policy or terms. Local Links stays on `privacy-policy.html` and `terms-of-service.html`. Do not edit those files to describe ClubMill.
+Clubhouse Millionaire is a separate Purple Tee LLC game, a sports arcade. The pages call it Clubhouse Millionaire. ClubMill is only a short name, and the file names stay `clubmill*.html`. These pages are not the Local Links privacy policy or terms. Local Links stays on `privacy-policy.html` and `terms-of-service.html`. Do not edit those files to describe this game.
 
 These ClubMill URLs are permanent. App Store, Google Play, and Steam listings link here (or will). Do not rename the files.
 
@@ -101,7 +101,7 @@ These ClubMill URLs are permanent. App Store, Google Play, and Steam listings li
 - `clubmill-terms.html` — terms of use: `https://purpletee.ai/clubmill-terms.html`
 - `clubmill-delete-account.html` — public account-deletion steps, including the page Google Play requires: `https://purpletee.ai/clubmill-delete-account.html`
 
-Styles for these pages live in `clubmill.css`. Screenshot frames and store-badge slots on `clubmill.html` are placeholders. Replace them with self-hosted files when real art exists. Do not hotlink store badges.
+Styles for these pages live in `clubmill.css`. The golf frame on `clubmill.html` is a mockup built from the game's symbol art (`assets/clubmill/mock-golf.png`). The football, soccer, and baseball frames, and the store-badge slots, are still placeholders. Replace them with self-hosted files. Do not hotlink store badges.
 
 ## Google Search Console verification
 
